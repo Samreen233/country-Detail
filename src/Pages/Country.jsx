@@ -27,6 +27,7 @@ const Country = () => {
           return <CountryCard country={curcountry} key={index} />;
         })}
       </ul>
+      <Loader />
     </section>
   );
 };
